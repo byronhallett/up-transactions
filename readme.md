@@ -10,7 +10,7 @@ Transactions between your savers and spending account are ignored.
 Get your up key from https://api.up.com.au/getting_started
 
 ```sh
-# use a python>3.7 environment
+# use a python>=3.7 environment
 pip install -r requirements.txt
 # exmaple for financial year 2019/2020
 UP_KEY=<up:yeah:XXXX> python main.py 2019-07-01 2020-06-30
