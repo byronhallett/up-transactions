@@ -1,0 +1,39 @@
+{
+  "type": "transactions",
+  "id": "xxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
+  "attributes": {
+    "status": "SETTLED",
+    "rawText": null,
+    "description": "Round Up",
+    "message": null,
+    "holdInfo": null,
+    "roundUp": null,
+    "cashback": null,
+    "amount": { "currencyCode": "AUD", "value": "0.01", "valueInBaseUnits": 1 },
+    "foreignAmount": null,
+    "settledAt": "2020-06-30T21:46:04+10:00",
+    "createdAt": "2020-06-30T21:46:04+10:00"
+  },
+  "relationships": {
+    "account": {
+      "data": {
+        "type": "accounts",
+        "id": "xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx"
+      },
+      "links": {
+        "related": "https://api.up.com.au/api/v1/accounts/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxx"
+      }
+    },
+    "category": { "data": null },
+    "parentCategory": { "data": null },
+    "tags": {
+      "data": [],
+      "links": {
+        "self": "https://api.up.com.au/api/v1/transactions/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxx/relationships/tags"
+      }
+    }
+  },
+  "links": {
+    "self": "https://api.up.com.au/api/v1/transactions/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxx"
+  }
+}

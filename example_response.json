@@ -1,0 +1,7 @@
+{
+  "data": ["... see example_transaction.json"],
+  "links": {
+    "prev": null,
+    "next": "https://api.up.com.au/api/v1/transactions?filter%5Bsince%5D=2019-07-01T00%3A00%3A00%2B10%3A00&filter%5Buntil%5D=2020-06-30T23%3A59%3A59%2B10%3A00&page%5Bafter%5D=xxxxxxxxxxx%3D%3D&page%5Bsize%5D=100"
+  }
+}
